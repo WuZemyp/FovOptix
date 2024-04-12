@@ -1,0 +1,3 @@
+cargo:rerun-if-changed=build/main.rs
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\target\debug\build\typenum-abea01451a11914f\out\consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\target\debug\build\typenum-abea01451a11914f\out\op.rs

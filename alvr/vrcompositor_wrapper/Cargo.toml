@@ -1,0 +1,10 @@
+[package]
+name = "alvr_vrcompositor_wrapper"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[target.'cfg(target_os = "linux")'.dependencies]
+exec = "0.3.1"

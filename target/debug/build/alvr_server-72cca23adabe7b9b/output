@@ -1,0 +1,1022 @@
+TARGET = Some("x86_64-pc-windows-msvc")
+OPT_LEVEL = Some("0")
+HOST = Some("x86_64-pc-windows-msvc")
+cargo:rerun-if-env-changed=CXX_x86_64-pc-windows-msvc
+CXX_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CXX_x86_64_pc_windows_msvc
+CXX_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CXX
+HOST_CXX = None
+cargo:rerun-if-env-changed=CXX
+CXX = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64-pc-windows-msvc
+CXXFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64_pc_windows_msvc
+CXXFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CXXFLAGS
+HOST_CXXFLAGS = None
+cargo:rerun-if-env-changed=CXXFLAGS
+CXXFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+cargo:rerun-if-env-changed=CXX_x86_64-pc-windows-msvc
+CXX_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CXX_x86_64_pc_windows_msvc
+CXX_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CXX
+HOST_CXX = None
+cargo:rerun-if-env-changed=CXX
+CXX = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64-pc-windows-msvc
+CXXFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64_pc_windows_msvc
+CXXFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CXXFLAGS
+HOST_CXXFLAGS = None
+cargo:rerun-if-env-changed=CXXFLAGS
+CXXFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+cargo:rerun-if-env-changed=CXX_x86_64-pc-windows-msvc
+CXX_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CXX_x86_64_pc_windows_msvc
+CXX_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CXX
+HOST_CXX = None
+cargo:rerun-if-env-changed=CXX
+CXX = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64-pc-windows-msvc
+CXXFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64_pc_windows_msvc
+CXXFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CXXFLAGS
+HOST_CXXFLAGS = None
+cargo:rerun-if-env-changed=CXXFLAGS
+CXXFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Brepro" "-I" "cpp/openvr/headers" "-I" "cpp" "-W4" "/std:c++17" "/permissive-" "-DNOMINMAX" "-D_WINSOCKAPI_" "-D_MBCS" "-D_MT" "-FoC:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\alvr_server\\driverlog.o" "-c" "cpp\\alvr_server\\driverlog.cpp"
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Brepro" "-I" "cpp/openvr/headers" "-I" "cpp" "-W4" "/std:c++17" "/permissive-" "-DNOMINMAX" "-D_WINSOCKAPI_" "-D_MBCS" "-D_MT" "-FoC:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\shared\\amf\\public\\common\\AMFSTL.o" "-c" "cpp\\shared\\amf\\public\\common\\AMFSTL.cpp"
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Brepro" "-I" "cpp/openvr/headers" "-I" "cpp" "-W4" "/std:c++17" "/permissive-" "-DNOMINMAX" "-D_WINSOCKAPI_" "-D_MBCS" "-D_MT" "-FoC:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\alvr_server\\Logger.o" "-c" "cpp\\alvr_server\\Logger.cpp"
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Brepro" "-I" "cpp/openvr/headers" "-I" "cpp" "-W4" "/std:c++17" "/permissive-" "-DNOMINMAX" "-D_WINSOCKAPI_" "-D_MBCS" "-D_MT" "-FoC:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\ALVR-common\\common-utils.o" "-c" "cpp\\ALVR-common\\common-utils.cpp"
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Brepro" "-I" "cpp/openvr/headers" "-I" "cpp" "-W4" "/std:c++17" "/permissive-" "-DNOMINMAX" "-D_WINSOCKAPI_" "-D_MBCS" "-D_MT" "-FoC:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\alvr_server\\Controller.o" "-c" "cpp\\alvr_server\\Controller.cpp"
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Brepro" "-I" "cpp/openvr/headers" "-I" "cpp" "-W4" "/std:c++17" "/permissive-" "-DNOMINMAX" "-D_WINSOCKAPI_" "-D_MBCS" "-D_MT" "-FoC:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\ALVR-common\\exception.o" "-c" "cpp\\ALVR-common\\exception.cpp"
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Brepro" "-I" "cpp/openvr/headers" "-I" "cpp" "-W4" "/std:c++17" "/permissive-" "-DNOMINMAX" "-D_WINSOCKAPI_" "-D_MBCS" "-D_MT" "-FoC:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\alvr_server\\Paths.o" "-c" "cpp\\alvr_server\\Paths.cpp"
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Brepro" "-I" "cpp/openvr/headers" "-I" "cpp" "-W4" "/std:c++17" "/permissive-" "-DNOMINMAX" "-D_WINSOCKAPI_" "-D_MBCS" "-D_MT" "-FoC:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\shared\\amf\\public\\common\\AMFFactory.o" "-c" "cpp\\shared\\amf\\public\\common\\AMFFactory.cpp"
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Brepro" "-I" "cpp/openvr/headers" "-I" "cpp" "-W4" "/std:c++17" "/permissive-" "-DNOMINMAX" "-D_WINSOCKAPI_" "-D_MBCS" "-D_MT" "-FoC:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\alvr_server\\PoseHistory.o" "-c" "cpp\\alvr_server\\PoseHistory.cpp"
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Brepro" "-I" "cpp/openvr/headers" "-I" "cpp" "-W4" "/std:c++17" "/permissive-" "-DNOMINMAX" "-D_WINSOCKAPI_" "-D_MBCS" "-D_MT" "-FoC:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\alvr_server\\ViveTrackerProxy.o" "-c" "cpp\\alvr_server\\ViveTrackerProxy.cpp"
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Brepro" "-I" "cpp/openvr/headers" "-I" "cpp" "-W4" "/std:c++17" "/permissive-" "-DNOMINMAX" "-D_WINSOCKAPI_" "-D_MBCS" "-D_MT" "-FoC:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\alvr_server\\HMD.o" "-c" "cpp\\alvr_server\\HMD.cpp"
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Brepro" "-I" "cpp/openvr/headers" "-I" "cpp" "-W4" "/std:c++17" "/permissive-" "-DNOMINMAX" "-D_WINSOCKAPI_" "-D_MBCS" "-D_MT" "-FoC:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\alvr_server\\alvr_server.o" "-c" "cpp\\alvr_server\\alvr_server.cpp"
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Brepro" "-I" "cpp/openvr/headers" "-I" "cpp" "-W4" "/std:c++17" "/permissive-" "-DNOMINMAX" "-D_WINSOCKAPI_" "-D_MBCS" "-D_MT" "-FoC:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\alvr_server\\NalParsing.o" "-c" "cpp\\alvr_server\\NalParsing.cpp"
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Brepro" "-I" "cpp/openvr/headers" "-I" "cpp" "-W4" "/std:c++17" "/permissive-" "-DNOMINMAX" "-D_WINSOCKAPI_" "-D_MBCS" "-D_MT" "-FoC:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\alvr_server\\IDRScheduler.o" "-c" "cpp\\alvr_server\\IDRScheduler.cpp"
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Brepro" "-I" "cpp/openvr/headers" "-I" "cpp" "-W4" "/std:c++17" "/permissive-" "-DNOMINMAX" "-D_WINSOCKAPI_" "-D_MBCS" "-D_MT" "-FoC:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\analyze_used\\helper_f.o" "-c" "cpp\\analyze_used\\helper_f.cpp"
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Brepro" "-I" "cpp/openvr/headers" "-I" "cpp" "-W4" "/std:c++17" "/permissive-" "-DNOMINMAX" "-D_WINSOCKAPI_" "-D_MBCS" "-D_MT" "-FoC:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\shared\\amf\\public\\common\\DataStreamFactory.o" "-c" "cpp\\shared\\amf\\public\\common\\DataStreamFactory.cpp"
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Brepro" "-I" "cpp/openvr/headers" "-I" "cpp" "-W4" "/std:c++17" "/permissive-" "-DNOMINMAX" "-D_WINSOCKAPI_" "-D_MBCS" "-D_MT" "-FoC:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\alvr_server\\TrackedDevice.o" "-c" "cpp\\alvr_server\\TrackedDevice.cpp"
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Brepro" "-I" "cpp/openvr/headers" "-I" "cpp" "-W4" "/std:c++17" "/permissive-" "-DNOMINMAX" "-D_WINSOCKAPI_" "-D_MBCS" "-D_MT" "-FoC:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\shared\\amf\\public\\common\\CurrentTimeImpl.o" "-c" "cpp\\shared\\amf\\public\\common\\CurrentTimeImpl.cpp"
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Brepro" "-I" "cpp/openvr/headers" "-I" "cpp" "-W4" "/std:c++17" "/permissive-" "-DNOMINMAX" "-D_WINSOCKAPI_" "-D_MBCS" "-D_MT" "-FoC:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\alvr_server\\ChaperoneUpdater.o" "-c" "cpp\\alvr_server\\ChaperoneUpdater.cpp"
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Brepro" "-I" "cpp/openvr/headers" "-I" "cpp" "-W4" "/std:c++17" "/permissive-" "-DNOMINMAX" "-D_WINSOCKAPI_" "-D_MBCS" "-D_MT" "-FoC:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\alvr_server\\Settings.o" "-c" "cpp\\alvr_server\\Settings.cpp"
+driverlog.cpp
+Logger.cpp
+AMFSTL.cpp
+exception.cpp
+common-utils.cpp
+Paths.cpp
+Controller.cpp
+ViveTrackerProxy.cpp
+AMFFactory.cpp
+PoseHistory.cpp
+HMD.cpp
+NalParsing.cpp
+helper_f.cpp
+alvr_server.cpp
+TrackedDevice.cpp
+DataStreamFactory.cpp
+IDRScheduler.cpp
+CurrentTimeImpl.cpp
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\shared\amf\public\include\core\Platform.h(402): warning C4201: nonstandard extension used: nameless struct/union
+Settings.cpp
+ChaperoneUpdater.cpp
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\shared\amf\public\include\core\Platform.h(402): warning C4201: nonstandard extension used: nameless struct/union
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\shared\amf\public\include\core\Platform.h(402): warning C4201: nonstandard extension used: nameless struct/union
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(852): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(816): note: see reference to function template instantiation 'unsigned __int64 *std::vector<uint64_t,std::allocator<uint64_t>>::_Emplace_reallocate<const _Ty&>(unsigned __int64 *const ,const _Ty &)' being compiled
+        with
+        [
+            _Ty=uint64_t
+        ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(825): note: see reference to function template instantiation 'unsigned __int64 *std::vector<uint64_t,std::allocator<uint64_t>>::_Emplace_reallocate<const _Ty&>(unsigned __int64 *const ,const _Ty &)' being compiled
+        with
+        [
+            _Ty=uint64_t
+        ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(902): note: see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<const _Ty&>(const _Ty &)' being compiled
+        with
+        [
+            _Ty=uint64_t
+        ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(904): note: see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<const _Ty&>(const _Ty &)' being compiled
+        with
+        [
+            _Ty=uint64_t
+        ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(913): note: see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::emplace_back<const _Ty&>(const _Ty &)' being compiled
+        with
+        [
+            _Ty=uint64_t
+        ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(912): note: while compiling class template member function 'void std::vector<uint64_t,std::allocator<uint64_t>>::push_back(const _Ty &)'
+        with
+        [
+            _Ty=uint64_t
+        ]
+cpp\alvr_server\Paths.cpp(76): note: see reference to function template instantiation 'void std::vector<uint64_t,std::allocator<uint64_t>>::push_back(const _Ty &)' being compiled
+        with
+        [
+            _Ty=uint64_t
+        ]
+cpp\alvr_server\Paths.cpp(38): note: see reference to class template instantiation 'std::vector<uint64_t,std::allocator<uint64_t>>' being compiled
+cpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'pOutSwapTextureSet': unreferenced formal parametercpp\ALVR-common\exception.cpp(8): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+
+cpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'pOutSwapTextureSet': unreferenced formal parametercpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'pSwapTextureSetDesc': unreferenced formal parameter
+
+cpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'pSwapTextureSetDesc': unreferenced formal parametercpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'unPid': unreferenced formal parameter
+
+cpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'unPid': unreferenced formal parametercpp/openvr/headers\openvr_driver.h(2789): warning C4100: 'sharedTextureHandle': unreferenced formal parameter
+
+exit code: 0
+cpp/openvr/headers\openvr_driver.h(2789): warning C4100: 'sharedTextureHandle': unreferenced formal parametercpp/openvr/headers\openvr_driver.h(2792): warning C4100: 'unPid': unreferenced formal parameter
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Brepro" "-I" "cpp/openvr/headers" "-I" "cpp" "-W4" "/std:c++17" "/permissive-" "-DNOMINMAX" "-D_WINSOCKAPI_" "-D_MBCS" "-D_MT" "-FoC:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\shared\\amf\\public\\common\\DataStreamFile.o" "-c" "cpp\\shared\\amf\\public\\common\\DataStreamFile.cpp"
+
+cpp/openvr/headers\openvr_driver.h(2792): warning C4100: 'unPid': unreferenced formal parametercpp/openvr/headers\openvr_driver.h(2795): warning C4100: 'pIndices': unreferenced formal parameter
+
+cpp/openvr/headers\openvr_driver.h(2795): warning C4100: 'pIndices': unreferenced formal parametercpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'pOutSwapTextureSet': unreferenced formal parametercpp/openvr/headers\openvr_driver.h(2795): warning C4100: 'sharedTextureHandles': unreferenced formal parameter
+
+
+cpp/openvr/headers\openvr_driver.h(2795): warning C4100: 'sharedTextureHandles': unreferenced formal parametercpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'pSwapTextureSetDesc': unreferenced formal parametercpp/openvr/headers\openvr_driver.h(2813): warning C4100: 'perEye': unreferenced formal parameter
+
+
+cpp/openvr/headers\openvr_driver.h(2813): warning C4100: 'perEye': unreferenced formal parametercpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'unPid': unreferenced formal parametercpp/openvr/headers\openvr_driver.h(2816): warning C4100: 'syncTexture': unreferenced formal parameter
+
+
+cpp/openvr/headers\openvr_driver.h(2816): warning C4100: 'syncTexture': unreferenced formal parametercpp/openvr/headers\openvr_driver.h(2789): warning C4100: 'sharedTextureHandle': unreferenced formal parametercpp/openvr/headers\openvr_driver.h(2822): warning C4100: 'pFrameTiming': unreferenced formal parameter
+
+
+cpp/openvr/headers\openvr_driver.h(2822): warning C4100: 'pFrameTiming': unreferenced formal parametercpp/openvr/headers\openvr_driver.h(2792): warning C4100: 'unPid': unreferenced formal parametercpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'pOutSwapTextureSet': unreferenced formal parameter
+
+
+cpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'pSwapTextureSetDesc': unreferenced formal parametercpp/openvr/headers\openvr_driver.h(2795): warning C4100: 'pIndices': unreferenced formal parameter
+
+cpp/openvr/headers\openvr_driver.h(2795): warning C4100: 'sharedTextureHandles': unreferenced formal parametercpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'unPid': unreferenced formal parameter
+
+cpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'pOutSwapTextureSet': unreferenced formal parametercpp/openvr/headers\openvr_driver.h(2813): warning C4100: 'perEye': unreferenced formal parametercpp/openvr/headers\openvr_driver.h(2789): warning C4100: 'sharedTextureHandle': unreferenced formal parameter
+
+
+cpp/openvr/headers\openvr_driver.h(2816): warning C4100: 'syncTexture': unreferenced formal parametercpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'pSwapTextureSetDesc': unreferenced formal parametercpp/openvr/headers\openvr_driver.h(2792): warning C4100: 'unPid': unreferenced formal parameter
+
+cpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'unPid': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2822): warning C4100: 'pFrameTiming': unreferenced formal parametercpp/openvr/headers\openvr_driver.h(2795): warning C4100: 'pIndices': unreferenced formal parameter
+
+
+cpp/openvr/headers\openvr_driver.h(2789): warning C4100: 'sharedTextureHandle': unreferenced formal parametercpp/openvr/headers\openvr_driver.h(2795): warning C4100: 'sharedTextureHandles': unreferenced formal parameter
+
+cpp/openvr/headers\openvr_driver.h(2792): warning C4100: 'unPid': unreferenced formal parametercpp/openvr/headers\openvr_driver.h(2813): warning C4100: 'perEye': unreferenced formal parameter
+
+cpp/openvr/headers\openvr_driver.h(2816): warning C4100: 'syncTexture': unreferenced formal parametercpp/openvr/headers\openvr_driver.h(2795): warning C4100: 'pIndices': unreferenced formal parameter
+
+cpp/openvr/headers\openvr_driver.h(2795): warning C4100: 'sharedTextureHandles': unreferenced formal parametercpp/openvr/headers\openvr_driver.h(2822): warning C4100: 'pFrameTiming': unreferenced formal parameter
+
+cpp/openvr/headers\openvr_driver.h(2813): warning C4100: 'perEye': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2816): warning C4100: 'syncTexture': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2822): warning C4100: 'pFrameTiming': unreferenced formal parameter
+DataStreamFile.cpp
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Brepro" "-I" "cpp/openvr/headers" "-I" "cpp" "-W4" "/std:c++17" "/permissive-" "-DNOMINMAX" "-D_WINSOCKAPI_" "-D_MBCS" "-D_MT" "-FoC:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\shared\\amf\\public\\common\\DataStreamMemory.o" "-c" "cpp\\shared\\amf\\public\\common\\DataStreamMemory.cpp"
+cpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'pOutSwapTextureSet': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'pSwapTextureSetDesc': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'unPid': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\shared\amf\public\include\core\Platform.h(402): warning C4201: nonstandard extension used: nameless struct/unioncpp/openvr/headers\openvr_driver.h(2789): warning C4100: 'sharedTextureHandle': unreferenced formal parameter
+
+cpp/openvr/headers\openvr_driver.h(2792): warning C4100: 'unPid': unreferenced formal parameterC:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\shared\amf\public\include\core\Platform.h(402): warning C4201: nonstandard extension used: nameless struct/union
+
+cpp/openvr/headers\openvr_driver.h(2795): warning C4100: 'pIndices': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2795): warning C4100: 'sharedTextureHandles': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2813): warning C4100: 'perEye': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2816): warning C4100: 'syncTexture': unreferenced formal parameterDataStreamMemory.cpp
+cpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'pOutSwapTextureSet': unreferenced formal parameter
+
+cpp/openvr/headers\openvr_driver.h(2822): warning C4100: 'pFrameTiming': unreferenced formal parametercpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'pSwapTextureSetDesc': unreferenced formal parameter
+
+exit code: 0
+exit code: 0
+cpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'unPid': unreferenced formal parameter
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Brepro" "-I" "cpp/openvr/headers" "-I" "cpp" "-W4" "/std:c++17" "/permissive-" "-DNOMINMAX" "-D_WINSOCKAPI_" "-D_MBCS" "-D_MT" "-FoC:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\shared\\amf\\public\\common\\IOCapsImpl.o" "-c" "cpp\\shared\\amf\\public\\common\\IOCapsImpl.cpp"
+cpp/openvr/headers\openvr_driver.h(2789): warning C4100: 'sharedTextureHandle': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2792): warning C4100: 'unPid': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2795): warning C4100: 'pIndices': unreferenced formal parameterrunning: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Brepro" "-I" "cpp/openvr/headers" "-I" "cpp" "-W4" "/std:c++17" "/permissive-" "-DNOMINMAX" "-D_WINSOCKAPI_" "-D_MBCS" "-D_MT" "-FoC:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\shared\\amf\\public\\common\\PropertyStorageExImpl.o" "-c" "cpp\\shared\\amf\\public\\common\\PropertyStorageExImpl.cpp"
+
+cpp/openvr/headers\openvr_driver.h(2795): warning C4100: 'sharedTextureHandles': unreferenced formal parameter
+IOCapsImpl.cpp
+cpp/openvr/headers\openvr_driver.h(2813): warning C4100: 'perEye': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2816): warning C4100: 'syncTexture': unreferenced formal parameterPropertyStorageExImpl.cpp
+
+cpp/openvr/headers\openvr_driver.h(2822): warning C4100: 'pFrameTiming': unreferenced formal parameter
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Brepro" "-I" "cpp/openvr/headers" "-I" "cpp" "-W4" "/std:c++17" "/permissive-" "-DNOMINMAX" "-D_WINSOCKAPI_" "-D_MBCS" "-D_MT" "-FoC:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\shared\\amf\\public\\common\\Thread.o" "-c" "cpp\\shared\\amf\\public\\common\\Thread.cpp"
+cpp\ALVR-common\common-utils.cpp(8): warning C4996: 'std::codecvt_utf8_utf16<wchar_t,1114111,(std::codecvt_mode)0>': warning STL4017: std::wbuffer_convert, std::wstring_convert, and the <codecvt> header (containing std::codecvt_mode, std::codecvt_utf8, std::codecvt_utf16, and std::codecvt_utf8_utf16) are deprecated in C++17. (The std::codecvt class template is NOT deprecated.) The C++ Standard doesn't provide equivalent non-deprecated functionality; consider using MultiByteToWideChar() and WideCharToMultiByte() from <Windows.h> instead. You can define _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to acknowledge that you have received this warning.Thread.cpp
+
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\codecvt(440): note: see declaration of 'std::codecvt_utf8_utf16'C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\shared\amf\public\include\core\Platform.h(402): warning C4201: nonstandard extension used: nameless struct/union
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\shared\amf\public\include\core\Platform.h(402): warning C4201: nonstandard extension used: nameless struct/union
+cpp\ALVR-common\common-utils.cpp(8): warning C4996: 'std::wstring_convert<std::codecvt_utf8_utf16<wchar_t,1114111,(std::codecvt_mode)0>,wchar_t,std::allocator<wchar_t>,std::allocator<char>>': warning STL4017: std::wbuffer_convert, std::wstring_convert, and the <codecvt> header (containing std::codecvt_mode, std::codecvt_utf8, std::codecvt_utf16, and std::codecvt_utf8_utf16) are deprecated in C++17. (The std::codecvt class template is NOT deprecated.) The C++ Standard doesn't provide equivalent non-deprecated functionality; consider using MultiByteToWideChar() and WideCharToMultiByte() from <Windows.h> instead. You can define _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to acknowledge that you have received this warning.
+
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xlocbuf(302): note: see declaration of 'std::wstring_convert'
+cpp\ALVR-common\common-utils.cpp(8): warning C4996: 'std::wstring_convert<std::codecvt_utf8_utf16<wchar_t,1114111,(std::codecvt_mode)0>,wchar_t,std::allocator<wchar_t>,std::allocator<char>>::wstring_convert': warning STL4017: std::wbuffer_convert, std::wstring_convert, and the <codecvt> header (containing std::codecvt_mode, std::codecvt_utf8, std::codecvt_utf16, and std::codecvt_utf8_utf16) are deprecated in C++17. (The std::codecvt class template is NOT deprecated.) The C++ Standard doesn't provide equivalent non-deprecated functionality; consider using MultiByteToWideChar() and WideCharToMultiByte() from <Windows.h> instead. You can define _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to acknowledge that you have received this warning.
+cpp\ALVR-common\common-utils.cpp(9): warning C4996: 'std::wstring_convert<std::codecvt_utf8_utf16<wchar_t,1114111,(std::codecvt_mode)0>,wchar_t,std::allocator<wchar_t>,std::allocator<char>>::from_bytes': warning STL4017: std::wbuffer_convert, std::wstring_convert, and the <codecvt> header (containing std::codecvt_mode, std::codecvt_utf8, std::codecvt_utf16, and std::codecvt_utf8_utf16) are deprecated in C++17. (The std::codecvt class template is NOT deprecated.) The C++ Standard doesn't provide equivalent non-deprecated functionality; consider using MultiByteToWideChar() and WideCharToMultiByte() from <Windows.h> instead. You can define _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to acknowledge that you have received this warning.
+cpp\ALVR-common\common-utils.cpp(13): warning C4996: 'std::codecvt_utf8_utf16<wchar_t,1114111,(std::codecvt_mode)0>': warning STL4017: std::wbuffer_convert, std::wstring_convert, and the <codecvt> header (containing std::codecvt_mode, std::codecvt_utf8, std::codecvt_utf16, and std::codecvt_utf8_utf16) are deprecated in C++17. (The std::codecvt class template is NOT deprecated.) The C++ Standard doesn't provide equivalent non-deprecated functionality; consider using MultiByteToWideChar() and WideCharToMultiByte() from <Windows.h> instead. You can define _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to acknowledge that you have received this warning.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\codecvt(440): note: see declaration of 'std::codecvt_utf8_utf16'
+cpp\ALVR-common\common-utils.cpp(13): warning C4996: 'std::wstring_convert<std::codecvt_utf8_utf16<wchar_t,1114111,(std::codecvt_mode)0>,wchar_t,std::allocator<wchar_t>,std::allocator<char>>': warning STL4017: std::wbuffer_convert, std::wstring_convert, and the <codecvt> header (containing std::codecvt_mode, std::codecvt_utf8, std::codecvt_utf16, and std::codecvt_utf8_utf16) are deprecated in C++17. (The std::codecvt class template is NOT deprecated.) The C++ Standard doesn't provide equivalent non-deprecated functionality; consider using MultiByteToWideChar() and WideCharToMultiByte() from <Windows.h> instead. You can define _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to acknowledge that you have received this warning.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xlocbuf(302): note: see declaration of 'std::wstring_convert'
+cpp\ALVR-common\common-utils.cpp(13): warning C4996: 'std::wstring_convert<std::codecvt_utf8_utf16<wchar_t,1114111,(std::codecvt_mode)0>,wchar_t,std::allocator<wchar_t>,std::allocator<char>>::wstring_convert': warning STL4017: std::wbuffer_convert, std::wstring_convert, and the <codecvt> header (containing std::codecvt_mode, std::codecvt_utf8, std::codecvt_utf16, and std::codecvt_utf8_utf16) are deprecated in C++17. (The std::codecvt class template is NOT deprecated.) The C++ Standard doesn't provide equivalent non-deprecated functionality; consider using MultiByteToWideChar() and WideCharToMultiByte() from <Windows.h> instead. You can define _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to acknowledge that you have received this warning.
+exit code: 0
+cpp\ALVR-common\common-utils.cpp(14): warning C4996: 'std::wstring_convert<std::codecvt_utf8_utf16<wchar_t,1114111,(std::codecvt_mode)0>,wchar_t,std::allocator<wchar_t>,std::allocator<char>>::to_bytes': warning STL4017: std::wbuffer_convert, std::wstring_convert, and the <codecvt> header (containing std::codecvt_mode, std::codecvt_utf8, std::codecvt_utf16, and std::codecvt_utf8_utf16) are deprecated in C++17. (The std::codecvt class template is NOT deprecated.) The C++ Standard doesn't provide equivalent non-deprecated functionality; consider using MultiByteToWideChar() and WideCharToMultiByte() from <Windows.h> instead. You can define _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to acknowledge that you have received this warning.
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Brepro" "-I" "cpp/openvr/headers" "-I" "cpp" "-W4" "/std:c++17" "/permissive-" "-DNOMINMAX" "-D_WINSOCKAPI_" "-D_MBCS" "-D_MT" "-FoC:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\shared\\amf\\public\\common\\TraceAdapter.o" "-c" "cpp\\shared\\amf\\public\\common\\TraceAdapter.cpp"
+TraceAdapter.cpp
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\shared\amf\public\common\../include/core/Platform.h(402): warning C4201: nonstandard extension used: nameless struct/union
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\shared\amf\public\include\core\Platform.h(402): warning C4201: nonstandard extension used: nameless struct/union
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\shared\amf\public\common\../include/core/Platform.h(402): warning C4201: nonstandard extension used: nameless struct/union
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Brepro" "-I" "cpp/openvr/headers" "-I" "cpp" "-W4" "/std:c++17" "/permissive-" "-DNOMINMAX" "-D_WINSOCKAPI_" "-D_MBCS" "-D_MT" "-FoC:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\shared\\amf\\public\\common\\Windows\\ThreadWindows.o" "-c" "cpp\\shared\\amf\\public\\common\\Windows\\ThreadWindows.cpp"
+exit code: 0
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\shared\amf\public\common\AMFSTL.h(88): warning C4996: 'std::allocator<_Ty>::pointer': warning STL4010: Various members of std::allocator are deprecated in C++17. Use std::allocator_traits instead of accessing these members directly. You can define _SILENCE_CXX17_OLD_ALLOCATOR_MEMBERS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to acknowledge that you have received this warning.
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Brepro" "-I" "cpp/openvr/headers" "-I" "cpp" "-W4" "/std:c++17" "/permissive-" "-DNOMINMAX" "-D_WINSOCKAPI_" "-D_MBCS" "-D_MT" "-FoC:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\shared\\threadtools.o" "-c" "cpp\\shared\\threadtools.cpp"
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\shared\amf\public\common\AMFSTL.h(96): note: see reference to class template instantiation 'amf::amf_allocator<_Ty>' being compiled
+ThreadWindows.cpp
+cpp\alvr_server\Settings.cpp(24): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHscC:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\shared\amf\public\common\AMFSTL.h(92): warning C4996: 'std::allocator<_Ty>::pointer': warning STL4010: Various members of std::allocator are deprecated in C++17. Use std::allocator_traits instead of accessing these members directly. You can define _SILENCE_CXX17_OLD_ALLOCATOR_MEMBERS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to acknowledge that you have received this warning.
+
+cpp\alvr_server\Settings.cpp(40): warning C4244: '=': conversion from 'int64_t' to 'uint32_t', possible loss of data
+cpp\alvr_server\Settings.cpp(41): warning C4244: '=': conversion from 'int64_t' to 'uint32_t', possible loss of data
+threadtools.cpp
+cpp\alvr_server\Settings.cpp(42): warning C4244: '=': conversion from 'int64_t' to 'int32_t', possible loss of data
+cpp\alvr_server\Settings.cpp(43): warning C4244: '=': conversion from 'int64_t' to 'int32_t', possible loss of data
+cpp\alvr_server\Settings.cpp(105): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+cpp\alvr_server\Settings.cpp(107): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(852): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHscC:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\shared\amf\public\common\AMFSTL.h(88): warning C4996: 'std::allocator<_Ty>::pointer': warning STL4010: Various members of std::allocator are deprecated in C++17. Use std::allocator_traits instead of accessing these members directly. You can define _SILENCE_CXX17_OLD_ALLOCATOR_MEMBERS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to acknowledge that you have received this warning.
+
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(816): note: see reference to function template instantiation 'AMFFactoryHelper::ComponentHolder *std::vector<AMFFactoryHelper::ComponentHolder,std::allocator<AMFFactoryHelper::ComponentHolder>>::_Emplace_reallocate<const _Ty&>(AMFFactoryHelper::ComponentHolder *const ,const _Ty &)' being compiled
+        with
+        [
+            _Ty=AMFFactoryHelper::ComponentHolder
+        ]C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\shared\amf\public\common\AMFSTL.h(96): note: see reference to class template instantiation 'amf::amf_allocator<_Ty>' being compiled
+
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(825): note: see reference to function template instantiation 'AMFFactoryHelper::ComponentHolder *std::vector<AMFFactoryHelper::ComponentHolder,std::allocator<AMFFactoryHelper::ComponentHolder>>::_Emplace_reallocate<const _Ty&>(AMFFactoryHelper::ComponentHolder *const ,const _Ty &)' being compiled
+        with
+        [
+            _Ty=AMFFactoryHelper::ComponentHolder
+        ]C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\shared\amf\public\common\AMFSTL.h(92): warning C4996: 'std::allocator<_Ty>::pointer': warning STL4010: Various members of std::allocator are deprecated in C++17. Use std::allocator_traits instead of accessing these members directly. You can define _SILENCE_CXX17_OLD_ALLOCATOR_MEMBERS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to acknowledge that you have received this warning.
+
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(902): note: see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<const _Ty&>(const _Ty &)' being compiled
+        with
+        [
+            _Ty=AMFFactoryHelper::ComponentHolder
+        ]cpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'pOutSwapTextureSet': unreferenced formal parameter
+
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(904): note: see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<const _Ty&>(const _Ty &)' being compiled
+        with
+        [
+            _Ty=AMFFactoryHelper::ComponentHolder
+        ]cpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'pSwapTextureSetDesc': unreferenced formal parameter
+
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(913): note: see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::emplace_back<const _Ty&>(const _Ty &)' being compiled
+        with
+        [
+            _Ty=AMFFactoryHelper::ComponentHolder
+        ]
+cpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'unPid': unreferenced formal parameterC:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(912): note: while compiling class template member function 'void std::vector<AMFFactoryHelper::ComponentHolder,std::allocator<AMFFactoryHelper::ComponentHolder>>::push_back(const _Ty &)'
+        with
+        [
+            _Ty=AMFFactoryHelper::ComponentHolder
+        ]
+
+cpp/openvr/headers\openvr_driver.h(2789): warning C4100: 'sharedTextureHandle': unreferenced formal parametercpp\shared\amf\public\common\AMFFactory.cpp(216): note: see reference to function template instantiation 'void std::vector<AMFFactoryHelper::ComponentHolder,std::allocator<AMFFactoryHelper::ComponentHolder>>::push_back(const _Ty &)' being compiled
+        with
+        [
+            _Ty=AMFFactoryHelper::ComponentHolder
+        ]
+
+cpp/openvr/headers\openvr_driver.h(2792): warning C4100: 'unPid': unreferenced formal parameterC:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\shared\amf\public\common\AMFFactory.h(85): note: see reference to class template instantiation 'std::vector<AMFFactoryHelper::ComponentHolder,std::allocator<AMFFactoryHelper::ComponentHolder>>' being compiled
+
+cpp/openvr/headers\openvr_driver.h(2795): warning C4100: 'pIndices': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2795): warning C4100: 'sharedTextureHandles': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2813): warning C4100: 'perEye': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2816): warning C4100: 'syncTexture': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2822): warning C4100: 'pFrameTiming': unreferenced formal parameter
+exit code: 0
+cpp\alvr_server\Controller.cpp(44): warning C4189: 'isViveTracker': local variable is initialized but not referencedrunning: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Brepro" "-I" "cpp/openvr/headers" "-I" "cpp" "-W4" "/std:c++17" "/permissive-" "-DNOMINMAX" "-D_WINSOCKAPI_" "-D_MBCS" "-D_MT" "-FoC:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp/platform/win32\\CEncoder.o" "-c" "cpp/platform/win32\\CEncoder.cpp"
+
+cpp\alvr_server\Controller.cpp(397): warning C4319: '~': zero extending 'uint32_t' to 'uint64_t' of greater size
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\shared\amf\public\common\../include/core/Platform.h(402): warning C4201: nonstandard extension used: nameless struct/unioncpp\alvr_server\Controller.cpp(612): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+
+cpp\alvr_server\Controller.cpp(614): warning C4244: '=': conversion from 'double' to 'float', possible loss of datacpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'pOutSwapTextureSet': unreferenced formal parameter
+
+cpp\alvr_server\Controller.cpp(616): warning C4244: '=': conversion from 'double' to 'float', possible loss of datacpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'pSwapTextureSetDesc': unreferenced formal parameter
+
+CEncoder.cpp
+cpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'unPid': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2789): warning C4100: 'sharedTextureHandle': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2792): warning C4100: 'unPid': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2795): warning C4100: 'pIndices': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2795): warning C4100: 'sharedTextureHandles': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2813): warning C4100: 'perEye': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2816): warning C4100: 'syncTexture': unreferenced formal parameter
+cpp\alvr_server\PoseHistory.cpp(63): warning C4244: '+=': conversion from 'double' to 'float', possible loss of datacpp/openvr/headers\openvr_driver.h(2822): warning C4100: 'pFrameTiming': unreferenced formal parameter
+
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Brepro" "-I" "cpp/openvr/headers" "-I" "cpp" "-W4" "/std:c++17" "/permissive-" "-DNOMINMAX" "-D_WINSOCKAPI_" "-D_MBCS" "-D_MT" "-FoC:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp/platform/win32\\d3d-render-utils\\RenderPipeline.o" "-c" "cpp/platform/win32\\d3d-render-utils\\RenderPipeline.cpp"
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(58): warning C4100: 'szFile': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(58): warning C4100: 'iLine': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(96): warning C4100: 'szFile': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(96): warning C4100: 'iLine': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(117): warning C4100: 'szFile': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(117): warning C4100: 'iLine': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(194): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(196): warning C4389: '!=': signed/unsigned mismatch
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(219): warning C4389: '==': signed/unsigned mismatchC:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\alvr_server\Controller.cpp(397) : warning C4701: potentially uninitialized local variable 'flag' used
+
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(852): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHscexit code: 0
+exit code: 0
+
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Brepro" "-I" "cpp/openvr/headers" "-I" "cpp" "-W4" "/std:c++17" "/permissive-" "-DNOMINMAX" "-D_WINSOCKAPI_" "-D_MBCS" "-D_MT" "-FoC:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp/platform/win32\\d3d-render-utils\\RenderUtils.o" "-c" "cpp/platform/win32\\d3d-render-utils\\RenderUtils.cpp"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(816): note: see reference to function template instantiation 'amf::AMFIOCapsImpl::MemoryType *std::vector<amf::AMFIOCapsImpl::MemoryType,std::allocator<amf::AMFIOCapsImpl::MemoryType>>::_Emplace_reallocate<_Ty>(amf::AMFIOCapsImpl::MemoryType *const ,_Ty &&)' being compiled
+        with
+        [
+            _Ty=amf::AMFIOCapsImpl::MemoryType
+        ]running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Brepro" "-I" "cpp/openvr/headers" "-I" "cpp" "-W4" "/std:c++17" "/permissive-" "-DNOMINMAX" "-D_WINSOCKAPI_" "-D_MBCS" "-D_MT" "-FoC:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp/platform/win32\\FFR.o" "-c" "cpp/platform/win32\\FFR.cpp"
+
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(825): note: see reference to function template instantiation 'amf::AMFIOCapsImpl::MemoryType *std::vector<amf::AMFIOCapsImpl::MemoryType,std::allocator<amf::AMFIOCapsImpl::MemoryType>>::_Emplace_reallocate<_Ty>(amf::AMFIOCapsImpl::MemoryType *const ,_Ty &&)' being compiled
+        with
+        [
+            _Ty=amf::AMFIOCapsImpl::MemoryType
+        ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(902): note: see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<_Ty>(_Ty &&)' being compiled
+        with
+        [
+            _Ty=amf::AMFIOCapsImpl::MemoryType
+        ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(904): note: see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<_Ty>(_Ty &&)' being compiled
+        with
+        [
+            _Ty=amf::AMFIOCapsImpl::MemoryType
+        ]RenderPipeline.cpp
+
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(918): note: see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::emplace_back<amf::AMFIOCapsImpl::MemoryType>(amf::AMFIOCapsImpl::MemoryType &&)' being compiled
+        with
+        [
+            _Ty=amf::AMFIOCapsImpl::MemoryType
+        ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(916): note: while compiling class template member function 'void std::vector<amf::AMFIOCapsImpl::MemoryType,std::allocator<amf::AMFIOCapsImpl::MemoryType>>::push_back(_Ty &&)'
+        with
+        [
+            _Ty=amf::AMFIOCapsImpl::MemoryType
+        ]
+cpp\shared\amf\public\common\IOCapsImpl.cpp(134): note: see reference to function template instantiation 'void std::vector<amf::AMFIOCapsImpl::MemoryType,std::allocator<amf::AMFIOCapsImpl::MemoryType>>::push_back(_Ty &&)' being compiled
+        with
+        [
+            _Ty=amf::AMFIOCapsImpl::MemoryType
+        ]
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\shared\amf\public\common\IOCapsImpl.h(129): note: see reference to class template instantiation 'std::vector<amf::AMFIOCapsImpl::MemoryType,std::allocator<amf::AMFIOCapsImpl::MemoryType>>' being compiled
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Brepro" "-I" "cpp/openvr/headers" "-I" "cpp" "-W4" "/std:c++17" "/permissive-" "-DNOMINMAX" "-D_WINSOCKAPI_" "-D_MBCS" "-D_MT" "-FoC:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp/platform/win32\\FrameRender.o" "-c" "cpp/platform/win32\\FrameRender.cpp"
+cpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'pOutSwapTextureSet': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'pSwapTextureSetDesc': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'unPid': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2789): warning C4100: 'sharedTextureHandle': unreferenced formal parameter
+FrameRender.cpp
+FFR.cpp
+RenderUtils.cpp
+cpp/openvr/headers\openvr_driver.h(2792): warning C4100: 'unPid': unreferenced formal parameter
+exit code: 0
+cpp/openvr/headers\openvr_driver.h(2795): warning C4100: 'pIndices': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2795): warning C4100: 'sharedTextureHandles': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2813): warning C4100: 'perEye': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2816): warning C4100: 'syncTexture': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2822): warning C4100: 'pFrameTiming': unreferenced formal parameter
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Brepro" "-I" "cpp/openvr/headers" "-I" "cpp" "-W4" "/std:c++17" "/permissive-" "-DNOMINMAX" "-D_WINSOCKAPI_" "-D_MBCS" "-D_MT" "-FoC:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp/platform/win32\\NvEncoder.o" "-c" "cpp/platform/win32\\NvEncoder.cpp"
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Brepro" "-I" "cpp/openvr/headers" "-I" "cpp" "-W4" "/std:c++17" "/permissive-" "-DNOMINMAX" "-D_WINSOCKAPI_" "-D_MBCS" "-D_MT" "-FoC:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp/platform/win32\\NvEncoderD3D11.o" "-c" "cpp/platform/win32\\NvEncoderD3D11.cpp"
+NvEncoder.cpp
+exit code: 0
+NvEncoderD3D11.cpp
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Brepro" "-I" "cpp/openvr/headers" "-I" "cpp" "-W4" "/std:c++17" "/permissive-" "-DNOMINMAX" "-D_WINSOCKAPI_" "-D_MBCS" "-D_MT" "-FoC:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp/platform/win32\\OvrDirectModeComponent.o" "-c" "cpp/platform/win32\\OvrDirectModeComponent.cpp"
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\alvr_server\include\picojson.h(379) : warning C4706: assignment within conditional expression
+OvrDirectModeComponent.cpp
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Brepro" "-I" "cpp/openvr/headers" "-I" "cpp" "-W4" "/std:c++17" "/permissive-" "-DNOMINMAX" "-D_WINSOCKAPI_" "-D_MBCS" "-D_MT" "-FoC:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp/platform/win32\\shared\\d3drender.o" "-c" "cpp/platform/win32\\shared\\d3drender.cpp"
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Brepro" "-I" "cpp/openvr/headers" "-I" "cpp" "-W4" "/std:c++17" "/permissive-" "-DNOMINMAX" "-D_WINSOCKAPI_" "-D_MBCS" "-D_MT" "-FoC:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp/platform/win32\\VideoEncoder.o" "-c" "cpp/platform/win32\\VideoEncoder.cpp"
+d3drender.cpp
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Brepro" "-I" "cpp/openvr/headers" "-I" "cpp" "-W4" "/std:c++17" "/permissive-" "-DNOMINMAX" "-D_WINSOCKAPI_" "-D_MBCS" "-D_MT" "-FoC:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp/platform/win32\\VideoEncoderAMF.o" "-c" "cpp/platform/win32\\VideoEncoderAMF.cpp"
+exit code: 0
+VideoEncoder.cpp
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Brepro" "-I" "cpp/openvr/headers" "-I" "cpp" "-W4" "/std:c++17" "/permissive-" "-DNOMINMAX" "-D_WINSOCKAPI_" "-D_MBCS" "-D_MT" "-FoC:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp/platform/win32\\VideoEncoderNVENC.o" "-c" "cpp/platform/win32\\VideoEncoderNVENC.cpp"
+VideoEncoderAMF.cpp
+VideoEncoderNVENC.cpp
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Brepro" "-I" "cpp/openvr/headers" "-I" "cpp" "-W4" "/std:c++17" "/permissive-" "-DNOMINMAX" "-D_WINSOCKAPI_" "-D_MBCS" "-D_MT" "-FoC:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp/platform/win32\\VideoEncoderSW.o" "-c" "cpp/platform/win32\\VideoEncoderSW.cpp"
+exit code: 0
+exit code: 0
+VideoEncoderSW.cpp
+exit code: 0
+exit code: 0
+cpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'pOutSwapTextureSet': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'pSwapTextureSetDesc': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'unPid': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2789): warning C4100: 'sharedTextureHandle': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2792): warning C4100: 'unPid': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2795): warning C4100: 'pIndices': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2795): warning C4100: 'sharedTextureHandles': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2813): warning C4100: 'perEye': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2816): warning C4100: 'syncTexture': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2822): warning C4100: 'pFrameTiming': unreferenced formal parameter
+exit code: 0
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(58): warning C4100: 'szFile': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(58): warning C4100: 'iLine': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(96): warning C4100: 'szFile': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(96): warning C4100: 'iLine': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(117): warning C4100: 'szFile': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(117): warning C4100: 'iLine': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(194): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(196): warning C4389: '!=': signed/unsigned mismatch
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(219): warning C4389: '==': signed/unsigned mismatch
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(58): warning C4100: 'szFile': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(58): warning C4100: 'iLine': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(96): warning C4100: 'szFile': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(96): warning C4100: 'iLine': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(117): warning C4100: 'szFile': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(117): warning C4100: 'iLine': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(194): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(196): warning C4389: '!=': signed/unsigned mismatch
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(219): warning C4389: '==': signed/unsigned mismatch
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(58): warning C4100: 'szFile': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(58): warning C4100: 'iLine': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(96): warning C4100: 'szFile': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(96): warning C4100: 'iLine': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(117): warning C4100: 'szFile': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(117): warning C4100: 'iLine': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(194): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(196): warning C4389: '!=': signed/unsigned mismatch
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(219): warning C4389: '==': signed/unsigned mismatch
+cpp\alvr_server\HMD.cpp(40): warning C4305: '=': truncation from 'double' to 'float'
+cpp\alvr_server\HMD.cpp(106): warning C4305: 'argument': truncation from 'double' to 'float'
+cpp\alvr_server\HMD.cpp(163): warning C4305: 'initializing': truncation from 'double' to 'float'
+cpp\alvr_server\HMD.cpp(104): warning C4189: 'originalIPD': local variable is initialized but not referenced
+cpp\alvr_server\HMD.cpp(279): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+cpp\alvr_server\HMD.cpp(281): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+cpp/platform/win32\shared\d3drender.cpp(19): warning C4100: 'nHeight': unreferenced formal parameter
+cpp/platform/win32\shared\d3drender.cpp(19): warning C4100: 'nWidth': unreferenced formal parameter
+cpp/platform/win32\shared\d3drender.cpp(437): warning C4100: 'nPitch': unreferenced formal parameter
+cpp/platform/win32\shared\d3drender.cpp(437): warning C4100: 'nWidth': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'pOutSwapTextureSet': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'pSwapTextureSetDesc': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'unPid': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2789): warning C4100: 'sharedTextureHandle': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2792): warning C4100: 'unPid': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2795): warning C4100: 'pIndices': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2795): warning C4100: 'sharedTextureHandles': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2813): warning C4100: 'perEye': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2816): warning C4100: 'syncTexture': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2822): warning C4100: 'pFrameTiming': unreferenced formal parameter
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(852): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(816): note: see reference to function template instantiation 'CD3DRender::SharedTextureEntry_t *std::vector<CD3DRender::SharedTextureEntry_t,std::allocator<CD3DRender::SharedTextureEntry_t>>::_Emplace_reallocate<const _Ty&>(CD3DRender::SharedTextureEntry_t *const ,const _Ty &)' being compiled
+        with
+        [
+            _Ty=CD3DRender::SharedTextureEntry_t
+        ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(825): note: see reference to function template instantiation 'CD3DRender::SharedTextureEntry_t *std::vector<CD3DRender::SharedTextureEntry_t,std::allocator<CD3DRender::SharedTextureEntry_t>>::_Emplace_reallocate<const _Ty&>(CD3DRender::SharedTextureEntry_t *const ,const _Ty &)' being compiled
+        with
+        [
+            _Ty=CD3DRender::SharedTextureEntry_t
+        ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(902): note: see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<const _Ty&>(const _Ty &)' being compiled
+        with
+        [
+            _Ty=CD3DRender::SharedTextureEntry_t
+        ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(904): note: see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<const _Ty&>(const _Ty &)' being compiled
+        with
+        [
+            _Ty=CD3DRender::SharedTextureEntry_t
+        ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(913): note: see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::emplace_back<const _Ty&>(const _Ty &)' being compiled
+        with
+        [
+            _Ty=CD3DRender::SharedTextureEntry_t
+        ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(912): note: while compiling class template member function 'void std::vector<CD3DRender::SharedTextureEntry_t,std::allocator<CD3DRender::SharedTextureEntry_t>>::push_back(const _Ty &)'
+        with
+        [
+            _Ty=CD3DRender::SharedTextureEntry_t
+        ]
+cpp/platform/win32\shared\d3drender.cpp(237): note: see reference to function template instantiation 'void std::vector<CD3DRender::SharedTextureEntry_t,std::allocator<CD3DRender::SharedTextureEntry_t>>::push_back(const _Ty &)' being compiled
+        with
+        [
+            _Ty=CD3DRender::SharedTextureEntry_t
+        ]
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\shared\d3drender.h(61): note: see reference to class template instantiation 'std::vector<CD3DRender::SharedTextureEntry_t,std::allocator<CD3DRender::SharedTextureEntry_t>>' being compiled
+exit code: 0
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\shared\d3drender.cpp(25) : warning C4702: unreachable code
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\shared\d3drender.cpp(39) : warning C4702: unreachable code
+exit code: 0
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(58): warning C4100: 'szFile': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(58): warning C4100: 'iLine': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(96): warning C4100: 'szFile': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(96): warning C4100: 'iLine': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(117): warning C4100: 'szFile': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(117): warning C4100: 'iLine': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(194): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(196): warning C4389: '!=': signed/unsigned mismatch
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(219): warning C4389: '==': signed/unsigned mismatch
+cpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'pOutSwapTextureSet': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'pSwapTextureSetDesc': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'unPid': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2789): warning C4100: 'sharedTextureHandle': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2792): warning C4100: 'unPid': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2795): warning C4100: 'pIndices': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2795): warning C4100: 'sharedTextureHandles': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2813): warning C4100: 'perEye': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2816): warning C4100: 'syncTexture': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2822): warning C4100: 'pFrameTiming': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'pOutSwapTextureSet': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'pSwapTextureSetDesc': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'unPid': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2789): warning C4100: 'sharedTextureHandle': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2792): warning C4100: 'unPid': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2795): warning C4100: 'pIndices': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2795): warning C4100: 'sharedTextureHandles': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2813): warning C4100: 'perEye': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2816): warning C4100: 'syncTexture': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2822): warning C4100: 'pFrameTiming': unreferenced formal parameter
+exit code: 0
+cpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'pOutSwapTextureSet': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'pSwapTextureSetDesc': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'unPid': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2789): warning C4100: 'sharedTextureHandle': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2792): warning C4100: 'unPid': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2795): warning C4100: 'pIndices': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2795): warning C4100: 'sharedTextureHandles': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2813): warning C4100: 'perEye': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2816): warning C4100: 'syncTexture': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2822): warning C4100: 'pFrameTiming': unreferenced formal parameter
+cpp/platform/win32\FFR.cpp(43): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+cpp/platform/win32\FFR.cpp(44): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+cpp/platform/win32\FFR.cpp(49): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+cpp/platform/win32\FFR.cpp(50): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+cpp/platform/win32\FFR.cpp(52): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+cpp/platform/win32\FFR.cpp(53): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(58): warning C4100: 'szFile': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(58): warning C4100: 'iLine': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(96): warning C4100: 'szFile': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(96): warning C4100: 'iLine': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(117): warning C4100: 'szFile': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(117): warning C4100: 'iLine': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(194): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(196): warning C4389: '!=': signed/unsigned mismatch
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(219): warning C4389: '==': signed/unsigned mismatch
+cpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'pOutSwapTextureSet': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'pSwapTextureSetDesc': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'unPid': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2789): warning C4100: 'sharedTextureHandle': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2792): warning C4100: 'unPid': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2795): warning C4100: 'pIndices': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2795): warning C4100: 'sharedTextureHandles': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2813): warning C4100: 'perEye': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2816): warning C4100: 'syncTexture': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2822): warning C4100: 'pFrameTiming': unreferenced formal parameter
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(852): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(816): note: see reference to function template instantiation 'ID3D11ShaderResourceView **std::vector<ID3D11ShaderResourceView *,std::allocator<ID3D11ShaderResourceView *>>::_Emplace_reallocate<_Ty>(ID3D11ShaderResourceView **const ,_Ty &&)' being compiled
+        with
+        [
+            _Ty=ID3D11ShaderResourceView *
+        ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(825): note: see reference to function template instantiation 'ID3D11ShaderResourceView **std::vector<ID3D11ShaderResourceView *,std::allocator<ID3D11ShaderResourceView *>>::_Emplace_reallocate<_Ty>(ID3D11ShaderResourceView **const ,_Ty &&)' being compiled
+        with
+        [
+            _Ty=ID3D11ShaderResourceView *
+        ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(902): note: see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<_Ty>(_Ty &&)' being compiled
+        with
+        [
+            _Ty=ID3D11ShaderResourceView *
+        ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(904): note: see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<_Ty>(_Ty &&)' being compiled
+        with
+        [
+            _Ty=ID3D11ShaderResourceView *
+        ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(918): note: see reference to function template instantiation '_Ty *&std::vector<_Ty,std::allocator<_Ty>>::emplace_back<ID3D11ShaderResourceView*>(ID3D11ShaderResourceView *&&)' being compiled
+        with
+        [
+            _Ty=ID3D11ShaderResourceView *
+        ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(916): note: while compiling class template member function 'void std::vector<ID3D11ShaderResourceView *,std::allocator<ID3D11ShaderResourceView *>>::push_back(_Ty &&)'
+        with
+        [
+            _Ty=ID3D11ShaderResourceView *
+        ]
+cpp/platform/win32\d3d-render-utils\RenderPipeline.cpp(83): note: see reference to function template instantiation 'void std::vector<ID3D11ShaderResourceView *,std::allocator<ID3D11ShaderResourceView *>>::push_back(_Ty &&)' being compiled
+        with
+        [
+            _Ty=ID3D11ShaderResourceView *
+        ]
+cpp/platform/win32\d3d-render-utils\RenderPipeline.cpp(81): note: see reference to class template instantiation 'std::vector<ID3D11ShaderResourceView *,std::allocator<ID3D11ShaderResourceView *>>' being compiled
+exit code: 0
+cpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'pOutSwapTextureSet': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'pSwapTextureSetDesc': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'unPid': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2789): warning C4100: 'sharedTextureHandle': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2792): warning C4100: 'unPid': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2795): warning C4100: 'pIndices': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2795): warning C4100: 'sharedTextureHandles': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2813): warning C4100: 'perEye': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2816): warning C4100: 'syncTexture': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2822): warning C4100: 'pFrameTiming': unreferenced formal parameter
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(852): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(816): note: see reference to function template instantiation 'd3d_render_utils::RenderPipeline *std::vector<d3d_render_utils::RenderPipeline,std::allocator<d3d_render_utils::RenderPipeline>>::_Emplace_reallocate<const _Ty&>(d3d_render_utils::RenderPipeline *const ,const _Ty &)' being compiled
+        with
+        [
+            _Ty=d3d_render_utils::RenderPipeline
+        ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(825): note: see reference to function template instantiation 'd3d_render_utils::RenderPipeline *std::vector<d3d_render_utils::RenderPipeline,std::allocator<d3d_render_utils::RenderPipeline>>::_Emplace_reallocate<const _Ty&>(d3d_render_utils::RenderPipeline *const ,const _Ty &)' being compiled
+        with
+        [
+            _Ty=d3d_render_utils::RenderPipeline
+        ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(902): note: see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<const _Ty&>(const _Ty &)' being compiled
+        with
+        [
+            _Ty=d3d_render_utils::RenderPipeline
+        ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(904): note: see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<const _Ty&>(const _Ty &)' being compiled
+        with
+        [
+            _Ty=d3d_render_utils::RenderPipeline
+        ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(913): note: see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::emplace_back<const _Ty&>(const _Ty &)' being compiled
+        with
+        [
+            _Ty=d3d_render_utils::RenderPipeline
+        ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(912): note: while compiling class template member function 'void std::vector<d3d_render_utils::RenderPipeline,std::allocator<d3d_render_utils::RenderPipeline>>::push_back(const _Ty &)'
+        with
+        [
+            _Ty=d3d_render_utils::RenderPipeline
+        ]
+cpp/platform/win32\FFR.cpp(96): note: see reference to function template instantiation 'void std::vector<d3d_render_utils::RenderPipeline,std::allocator<d3d_render_utils::RenderPipeline>>::push_back(const _Ty &)' being compiled
+        with
+        [
+            _Ty=d3d_render_utils::RenderPipeline
+        ]
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\FFR.h(19): note: see reference to class template instantiation 'std::vector<d3d_render_utils::RenderPipeline,std::allocator<d3d_render_utils::RenderPipeline>>' being compiled
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(58): warning C4100: 'szFile': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(58): warning C4100: 'iLine': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(96): warning C4100: 'szFile': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(58): warning C4100: 'szFile': unreferenced formal parameterC:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(96): warning C4100: 'iLine': unreferenced formal parameter
+
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(58): warning C4100: 'iLine': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(117): warning C4100: 'szFile': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(117): warning C4100: 'iLine': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(194): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(196): warning C4389: '!=': signed/unsigned mismatch
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(96): warning C4100: 'szFile': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(96): warning C4100: 'iLine': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(117): warning C4100: 'szFile': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(117): warning C4100: 'iLine': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(194): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(196): warning C4389: '!=': signed/unsigned mismatch
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(219): warning C4389: '==': signed/unsigned mismatch
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(219): warning C4389: '==': signed/unsigned mismatch
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(58): warning C4100: 'szFile': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(58): warning C4100: 'iLine': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(96): warning C4100: 'szFile': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(96): warning C4100: 'iLine': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(117): warning C4100: 'szFile': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(117): warning C4100: 'iLine': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(194): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(196): warning C4389: '!=': signed/unsigned mismatch
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(219): warning C4389: '==': signed/unsigned mismatch
+cpp/platform/win32\NvEncoder.cpp(185): warning C4456: declaration of 'presetConfig' hides previous local declaration
+cpp/platform/win32\NvEncoder.cpp(174): note: see declaration of 'presetConfig'exit code: 0
+
+cpp/platform/win32\NvEncoder.cpp(577): warning C4189: 'SizeState': local variable is initialized but not referenced
+cpp/platform/win32\NvEncoder.cpp(675): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+cpp/platform/win32\NvEncoder.cpp(678): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+cpp/platform/win32\NvEncoder.cpp(681): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+cpp/platform/win32\NvEncoder.cpp(684): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+cpp/platform/win32\NvEncoder.cpp(687): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+cpp/platform/win32\NvEncoder.cpp(692): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+cpp/platform/win32\NvEncoder.cpp(695): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+cpp/platform/win32\NvEncoder.cpp(698): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+cpp/platform/win32\NvEncoder.cpp(702): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+cpp/platform/win32\NvEncoder.cpp(706): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+cpp/platform/win32\NvEncoder.cpp(730): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+cpp/platform/win32\NvEncoder.cpp(731): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+cpp/platform/win32\NvEncoder.cpp(775): warning C4189: 'SizeState': local variable is initialized but not referenced
+cpp/platform/win32\NvEncoder.cpp(1069): warning C4245: 'return': conversion from 'int' to 'uint32_t', signed/unsigned mismatch
+cpp/platform/win32\NvEncoder.cpp(1093): warning C4245: 'return': conversion from 'int' to 'uint32_t', signed/unsigned mismatch
+exit code: 0
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\stb_image_write.h(776): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+exit code: 0
+cpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'pOutSwapTextureSet': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'pSwapTextureSetDesc': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2786): warning C4100: 'unPid': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2789): warning C4100: 'sharedTextureHandle': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2792): warning C4100: 'unPid': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2795): warning C4100: 'pIndices': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2795): warning C4100: 'sharedTextureHandles': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2813): warning C4100: 'perEye': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2816): warning C4100: 'syncTexture': unreferenced formal parameter
+cpp/openvr/headers\openvr_driver.h(2822): warning C4100: 'pFrameTiming': unreferenced formal parameter
+cpp/platform/win32\VideoEncoderNVENC.cpp(127): warning C4244: '=': conversion from 'unsigned __int64' to 'int', possible loss of data
+cpp/platform/win32\VideoEncoderNVENC.cpp(131): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+cpp/platform/win32\VideoEncoderNVENC.cpp(123): warning C4100: 'presentationTime': unreferenced formal parameter
+cpp/platform/win32\VideoEncoderNVENC.cpp(214): warning C4244: '=': conversion from 'int64_t' to 'uint32_t', possible loss of data
+cpp/platform/win32\VideoEncoderNVENC.cpp(225): warning C4244: '=': conversion from 'int64_t' to 'uint32_t', possible loss of data
+cpp/platform/win32\VideoEncoderNVENC.cpp(228): warning C4244: '=': conversion from 'int64_t' to 'uint32_t', possible loss of data
+cpp/platform/win32\VideoEncoderNVENC.cpp(237): warning C4244: '=': conversion from 'int64_t' to 'uint32_t', possible loss of data
+cpp/platform/win32\VideoEncoderNVENC.cpp(240): warning C4244: '=': conversion from 'int64_t' to 'uint32_t', possible loss of data
+cpp/platform/win32\VideoEncoderNVENC.cpp(265): warning C4244: '=': conversion from 'int64_t' to 'uint32_t', possible loss of data
+cpp/platform/win32\VideoEncoderNVENC.cpp(268): warning C4244: '=': conversion from 'int64_t' to 'uint32_t', possible loss of data
+cpp/platform/win32\VideoEncoderNVENC.cpp(289): warning C4244: '=': conversion from 'int64_t' to 'int32_t', possible loss of data
+cpp/platform/win32\VideoEncoderNVENC.cpp(304): warning C4244: '=': conversion from 'int64_t' to 'uint8_t', possible loss of data
+cpp/platform/win32\VideoEncoderNVENC.cpp(309): warning C4244: '=': conversion from 'double' to 'uint32_t', possible loss of data
+cpp/platform/win32\VideoEncoderNVENC.cpp(310): warning C4244: '=': conversion from 'double' to 'uint32_t', possible loss of data
+cpp/platform/win32\VideoEncoderNVENC.cpp(323): warning C4244: '=': conversion from 'int64_t' to 'uint32_t', possible loss of data
+cpp/platform/win32\VideoEncoderNVENC.cpp(326): warning C4244: '=': conversion from 'int64_t' to 'uint32_t', possible loss of data
+cpp/platform/win32\VideoEncoderNVENC.cpp(329): warning C4244: '=': conversion from 'int64_t' to 'uint32_t', possible loss of data
+cpp/platform/win32\VideoEncoderNVENC.cpp(332): warning C4244: '=': conversion from 'int64_t' to 'uint32_t', possible loss of data
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(58): warning C4100: 'szFile': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(58): warning C4100: 'iLine': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(96): warning C4100: 'szFile': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(96): warning C4100: 'iLine': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(117): warning C4100: 'szFile': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(117): warning C4100: 'iLine': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(194): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(196): warning C4389: '!=': signed/unsigned mismatch
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(219): warning C4389: '==': signed/unsigned mismatch
+exit code: 0
+cpp/platform/win32\VideoEncoderAMF.cpp(370): warning C5205: delete of an abstract class 'amf::AMFComponent' that has a non-virtual destructor results in undefined behavior
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\shared\amf\public\include\core\../components/Component.h(117): note: see declaration of 'amf::AMFComponent'
+cpp/platform/win32\VideoEncoderAMF.cpp(391): warning C4244: 'initializing': conversion from 'float' to 'amf_int64', possible loss of data
+cpp/platform/win32\VideoEncoderAMF.cpp(384): warning C4100: 'ReEncode': unreferenced formal parameter
+cpp/platform/win32\VideoEncoderAMF.cpp(384): warning C4100: 'presentationTime': unreferenced formal parameter
+cpp/platform/win32\VideoEncoderAMF.cpp(423): warning C4189: 'current_time': local variable is initialized but not referenced
+exit code: 0
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(58): warning C4100: 'szFile': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(58): warning C4100: 'iLine': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(96): warning C4100: 'szFile': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(96): warning C4100: 'iLine': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(117): warning C4100: 'szFile': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(117): warning C4100: 'iLine': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(194): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(196): warning C4389: '!=': signed/unsigned mismatch
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(219): warning C4389: '==': signed/unsigned mismatch
+cpp/platform/win32\FrameRender.cpp(326): warning C4100: 'debugText': unreferenced formal parameter
+cpp/platform/win32\FrameRender.cpp(491): warning C4459: declaration of 'filename_s' hides global declaration
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\../../analyze_used/helper_f.h(10): note: see declaration of 'filename_s'
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvEncoder.cpp(1045) : warning C4702: unreachable code
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvEncoder.cpp(785) : warning C4702: unreachable code
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvEncoder.cpp(1069) : warning C4702: unreachable code
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvEncoder.cpp(1093) : warning C4702: unreachable code
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvEncoder.cpp(1148) : warning C4702: unreachable code
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvEncoder.cpp(1175) : warning C4702: unreachable code
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvEncoder.cpp(1215) : warning C4702: unreachable code
+exit code: 0
+exit code: 0
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(58): warning C4100: 'szFile': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(58): warning C4100: 'iLine': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(96): warning C4100: 'szFile': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(96): warning C4100: 'iLine': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(117): warning C4100: 'szFile': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(117): warning C4100: 'iLine': unreferenced formal parameter
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(194): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(196): warning C4389: '!=': signed/unsigned mismatch
+C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\platform\win32\NvCodecUtils.h(219): warning C4389: '==': signed/unsigned mismatch
+exit code: 0
+cpp/platform/win32\OvrDirectModeComponent.cpp(102): warning C4100: 'sharedTextureHandles': unreferenced formal parameter
+exit code: 0
+exit code: 0
+exit code: 0
+cargo:rerun-if-env-changed=AR_x86_64-pc-windows-msvc
+AR_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=AR_x86_64_pc_windows_msvc
+AR_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_AR
+HOST_AR = None
+cargo:rerun-if-env-changed=AR
+AR = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64-pc-windows-msvc
+ARFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64_pc_windows_msvc
+ARFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_ARFLAGS
+HOST_ARFLAGS = None
+cargo:rerun-if-env-changed=ARFLAGS
+ARFLAGS = None
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\lib.exe" "-out:C:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\libbindings.a" "-nologo" "C:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\ALVR-common\\common-utils.o" "C:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\ALVR-common\\exception.o" "C:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\alvr_server\\alvr_server.o" "C:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\alvr_server\\ChaperoneUpdater.o" "C:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\alvr_server\\Controller.o" "C:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\alvr_server\\driverlog.o" "C:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\alvr_server\\HMD.o" "C:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\alvr_server\\IDRScheduler.o" "C:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\alvr_server\\Logger.o" "C:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\alvr_server\\NalParsing.o" "C:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\alvr_server\\Paths.o" "C:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\alvr_server\\PoseHistory.o" "C:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\alvr_server\\Settings.o" "C:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\alvr_server\\TrackedDevice.o" "C:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\alvr_server\\ViveTrackerProxy.o" "C:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\analyze_used\\helper_f.o" "C:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\shared\\amf\\public\\common\\AMFFactory.o" "C:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\shared\\amf\\public\\common\\AMFSTL.o" "C:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\shared\\amf\\public\\common\\CurrentTimeImpl.o" "C:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\shared\\amf\\public\\common\\DataStreamFactory.o" "C:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\shared\\amf\\public\\common\\DataStreamFile.o" "C:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\shared\\amf\\public\\common\\DataStreamMemory.o" "C:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\shared\\amf\\public\\common\\IOCapsImpl.o" "C:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\shared\\amf\\public\\common\\PropertyStorageExImpl.o" "C:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\shared\\amf\\public\\common\\Thread.o" "C:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\shared\\amf\\public\\common\\TraceAdapter.o" "C:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\shared\\amf\\public\\common\\Windows\\ThreadWindows.o" "C:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp\\shared\\threadtools.o" "C:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp/platform/win32\\CEncoder.o" "C:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp/platform/win32\\d3d-render-utils\\RenderPipeline.o" "C:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp/platform/win32\\d3d-render-utils\\RenderUtils.o" "C:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp/platform/win32\\FFR.o" "C:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp/platform/win32\\FrameRender.o" "C:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp/platform/win32\\NvEncoder.o" "C:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp/platform/win32\\NvEncoderD3D11.o" "C:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp/platform/win32\\OvrDirectModeComponent.o" "C:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp/platform/win32\\shared\\d3drender.o" "C:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp/platform/win32\\VideoEncoder.o" "C:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp/platform/win32\\VideoEncoderAMF.o" "C:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp/platform/win32\\VideoEncoderNVENC.o" "C:\\Users\\13513\\Downloads\\QP_manager-ReEncode\\QP_manager-ReEncode\\target\\debug\\build\\alvr_server-72cca23adabe7b9b\\out\\cpp/platform/win32\\VideoEncoderSW.o"
+exit code: 0
+cargo:rustc-link-search=native=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\atlmfc\lib\x64
+cargo:rustc-link-lib=static=bindings
+cargo:rustc-link-search=native=C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\target\debug\build\alvr_server-72cca23adabe7b9b\out
+cargo:rerun-if-env-changed=CXXSTDLIB_x86_64-pc-windows-msvc
+CXXSTDLIB_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CXXSTDLIB_x86_64_pc_windows_msvc
+CXXSTDLIB_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CXXSTDLIB
+HOST_CXXSTDLIB = None
+cargo:rerun-if-env-changed=CXXSTDLIB
+CXXSTDLIB = None
+cargo:rustc-link-search=native=C:\Users\13513\Downloads\QP_manager-ReEncode\QP_manager-ReEncode\alvr\server\cpp\openvr/lib
+cargo:rustc-link-lib=openvr_api
+cargo:rerun-if-changed=cpp
+cargo:rerun-if-changed=cpp\ALVR-common
+cargo:rerun-if-changed=cpp\ALVR-common\common-utils.cpp
+cargo:rerun-if-changed=cpp\ALVR-common\common-utils.h
+cargo:rerun-if-changed=cpp\ALVR-common\exception.cpp
+cargo:rerun-if-changed=cpp\ALVR-common\exception.h
+cargo:rerun-if-changed=cpp\ALVR-common\packet_types.h
+cargo:rerun-if-changed=cpp\alvr_server
+cargo:rerun-if-changed=cpp\alvr_server\alvr_server.cpp
+cargo:rerun-if-changed=cpp\alvr_server\bindings.h
+cargo:rerun-if-changed=cpp\alvr_server\ChaperoneUpdater.cpp
+cargo:rerun-if-changed=cpp\alvr_server\Controller.cpp
+cargo:rerun-if-changed=cpp\alvr_server\Controller.h
+cargo:rerun-if-changed=cpp\alvr_server\driverlog.cpp
+cargo:rerun-if-changed=cpp\alvr_server\driverlog.h
+cargo:rerun-if-changed=cpp\alvr_server\HMD.cpp
+cargo:rerun-if-changed=cpp\alvr_server\HMD.h
+cargo:rerun-if-changed=cpp\alvr_server\IDRScheduler.cpp
+cargo:rerun-if-changed=cpp\alvr_server\IDRScheduler.h
+cargo:rerun-if-changed=cpp\alvr_server\include
+cargo:rerun-if-changed=cpp\alvr_server\include\openvr_math.h
+cargo:rerun-if-changed=cpp\alvr_server\include\picojson.h
+cargo:rerun-if-changed=cpp\alvr_server\Logger.cpp
+cargo:rerun-if-changed=cpp\alvr_server\Logger.h
+cargo:rerun-if-changed=cpp\alvr_server\NalParsing.cpp
+cargo:rerun-if-changed=cpp\alvr_server\nvEncodeAPI.h
+cargo:rerun-if-changed=cpp\alvr_server\Paths.cpp
+cargo:rerun-if-changed=cpp\alvr_server\Paths.h
+cargo:rerun-if-changed=cpp\alvr_server\PoseHistory.cpp
+cargo:rerun-if-changed=cpp\alvr_server\PoseHistory.h
+cargo:rerun-if-changed=cpp\alvr_server\Settings.cpp
+cargo:rerun-if-changed=cpp\alvr_server\Settings.h
+cargo:rerun-if-changed=cpp\alvr_server\shader
+cargo:rerun-if-changed=cpp\alvr_server\shader\ColorCorrectionPixelShader.hlsl
+cargo:rerun-if-changed=cpp\alvr_server\shader\CompressAxisAlignedPixelShader.hlsl
+cargo:rerun-if-changed=cpp\alvr_server\shader\FoveatedRendering.hlsli
+cargo:rerun-if-changed=cpp\alvr_server\shader\FrameRender.fx
+cargo:rerun-if-changed=cpp\alvr_server\shader\FrameRenderPS.hlsl
+cargo:rerun-if-changed=cpp\alvr_server\shader\FrameRenderVS.hlsl
+cargo:rerun-if-changed=cpp\alvr_server\TrackedDevice.cpp
+cargo:rerun-if-changed=cpp\alvr_server\TrackedDevice.h
+cargo:rerun-if-changed=cpp\alvr_server\Utils.h
+cargo:rerun-if-changed=cpp\alvr_server\ViveTrackerProxy.cpp
+cargo:rerun-if-changed=cpp\alvr_server\ViveTrackerProxy.h
+cargo:rerun-if-changed=cpp\analyze_used
+cargo:rerun-if-changed=cpp\analyze_used\helper_f.cpp
+cargo:rerun-if-changed=cpp\analyze_used\helper_f.h
+cargo:rerun-if-changed=cpp\bin
+cargo:rerun-if-changed=cpp\bin\.gitignore
+cargo:rerun-if-changed=cpp\bin\windows
+cargo:rerun-if-changed=cpp\bin\windows\openvr_api.dll
+cargo:rerun-if-changed=cpp\bin\windows\vcruntime140_1.dll
+cargo:rerun-if-changed=cpp\openvr
+cargo:rerun-if-changed=cpp\openvr\headers
+cargo:rerun-if-changed=cpp\openvr\headers\openvr.h
+cargo:rerun-if-changed=cpp\openvr\headers\openvr_driver.h
+cargo:rerun-if-changed=cpp\openvr\lib
+cargo:rerun-if-changed=cpp\openvr\lib\libopenvr_api.a
+cargo:rerun-if-changed=cpp\openvr\lib\openvr_api.lib
+cargo:rerun-if-changed=cpp\shared
+cargo:rerun-if-changed=cpp\shared\amf
+cargo:rerun-if-changed=cpp\shared\amf\public
+cargo:rerun-if-changed=cpp\shared\amf\public\common
+cargo:rerun-if-changed=cpp\shared\amf\public\common\AMFFactory.cpp
+cargo:rerun-if-changed=cpp\shared\amf\public\common\AMFFactory.h
+cargo:rerun-if-changed=cpp\shared\amf\public\common\AMFMath.h
+cargo:rerun-if-changed=cpp\shared\amf\public\common\AMFSTL.cpp
+cargo:rerun-if-changed=cpp\shared\amf\public\common\AMFSTL.h
+cargo:rerun-if-changed=cpp\shared\amf\public\common\ByteArray.h
+cargo:rerun-if-changed=cpp\shared\amf\public\common\CurrentTimeImpl.cpp
+cargo:rerun-if-changed=cpp\shared\amf\public\common\CurrentTimeImpl.h
+cargo:rerun-if-changed=cpp\shared\amf\public\common\DataStream.h
+cargo:rerun-if-changed=cpp\shared\amf\public\common\DataStreamFactory.cpp
+cargo:rerun-if-changed=cpp\shared\amf\public\common\DataStreamFile.cpp
+cargo:rerun-if-changed=cpp\shared\amf\public\common\DataStreamFile.h
+cargo:rerun-if-changed=cpp\shared\amf\public\common\DataStreamMemory.cpp
+cargo:rerun-if-changed=cpp\shared\amf\public\common\DataStreamMemory.h
+cargo:rerun-if-changed=cpp\shared\amf\public\common\InterfaceImpl.h
+cargo:rerun-if-changed=cpp\shared\amf\public\common\IOCapsImpl.cpp
+cargo:rerun-if-changed=cpp\shared\amf\public\common\IOCapsImpl.h
+cargo:rerun-if-changed=cpp\shared\amf\public\common\ObservableImpl.h
+cargo:rerun-if-changed=cpp\shared\amf\public\common\PropertyStorageExImpl.cpp
+cargo:rerun-if-changed=cpp\shared\amf\public\common\PropertyStorageExImpl.h
+cargo:rerun-if-changed=cpp\shared\amf\public\common\PropertyStorageImpl.h
+cargo:rerun-if-changed=cpp\shared\amf\public\common\Thread.cpp
+cargo:rerun-if-changed=cpp\shared\amf\public\common\Thread.h
+cargo:rerun-if-changed=cpp\shared\amf\public\common\TraceAdapter.cpp
+cargo:rerun-if-changed=cpp\shared\amf\public\common\TraceAdapter.h
+cargo:rerun-if-changed=cpp\shared\amf\public\common\Windows
+cargo:rerun-if-changed=cpp\shared\amf\public\common\Windows\ThreadWindows.cpp
+cargo:rerun-if-changed=cpp\shared\amf\public\include
+cargo:rerun-if-changed=cpp\shared\amf\public\include\components
+cargo:rerun-if-changed=cpp\shared\amf\public\include\components\Ambisonic2SRenderer.h
+cargo:rerun-if-changed=cpp\shared\amf\public\include\components\AudioCapture.h
+cargo:rerun-if-changed=cpp\shared\amf\public\include\components\Capture.h
+cargo:rerun-if-changed=cpp\shared\amf\public\include\components\ChromaKey.h
+cargo:rerun-if-changed=cpp\shared\amf\public\include\components\ColorSpace.h
+cargo:rerun-if-changed=cpp\shared\amf\public\include\components\Component.h
+cargo:rerun-if-changed=cpp\shared\amf\public\include\components\ComponentCaps.h
+cargo:rerun-if-changed=cpp\shared\amf\public\include\components\CursorCapture.h
+cargo:rerun-if-changed=cpp\shared\amf\public\include\components\DisplayCapture.h
+cargo:rerun-if-changed=cpp\shared\amf\public\include\components\FFMPEGAudioConverter.h
+cargo:rerun-if-changed=cpp\shared\amf\public\include\components\FFMPEGAudioDecoder.h
+cargo:rerun-if-changed=cpp\shared\amf\public\include\components\FFMPEGAudioEncoder.h
+cargo:rerun-if-changed=cpp\shared\amf\public\include\components\FFMPEGComponents.h
+cargo:rerun-if-changed=cpp\shared\amf\public\include\components\FFMPEGFileDemuxer.h
+cargo:rerun-if-changed=cpp\shared\amf\public\include\components\FFMPEGFileMuxer.h
+cargo:rerun-if-changed=cpp\shared\amf\public\include\components\FFMPEGVideoDecoder.h
+cargo:rerun-if-changed=cpp\shared\amf\public\include\components\HQScaler.h
+cargo:rerun-if-changed=cpp\shared\amf\public\include\components\MediaSource.h
+cargo:rerun-if-changed=cpp\shared\amf\public\include\components\PreAnalysis.h
+cargo:rerun-if-changed=cpp\shared\amf\public\include\components\PreProcessing.h
+cargo:rerun-if-changed=cpp\shared\amf\public\include\components\VideoCapture.h
+cargo:rerun-if-changed=cpp\shared\amf\public\include\components\VideoConverter.h
+cargo:rerun-if-changed=cpp\shared\amf\public\include\components\VideoDecoderUVD.h
+cargo:rerun-if-changed=cpp\shared\amf\public\include\components\VideoEncoderHEVC.h
+cargo:rerun-if-changed=cpp\shared\amf\public\include\components\VideoEncoderVCE.h
+cargo:rerun-if-changed=cpp\shared\amf\public\include\components\VideoStitch.h
+cargo:rerun-if-changed=cpp\shared\amf\public\include\components\ZCamLiveStream.h
+cargo:rerun-if-changed=cpp\shared\amf\public\include\core
+cargo:rerun-if-changed=cpp\shared\amf\public\include\core\AudioBuffer.h
+cargo:rerun-if-changed=cpp\shared\amf\public\include\core\Buffer.h
+cargo:rerun-if-changed=cpp\shared\amf\public\include\core\Compute.h
+cargo:rerun-if-changed=cpp\shared\amf\public\include\core\ComputeFactory.h
+cargo:rerun-if-changed=cpp\shared\amf\public\include\core\Context.h
+cargo:rerun-if-changed=cpp\shared\amf\public\include\core\CurrentTime.h
+cargo:rerun-if-changed=cpp\shared\amf\public\include\core\D3D12AMF.h
+cargo:rerun-if-changed=cpp\shared\amf\public\include\core\Data.h
+cargo:rerun-if-changed=cpp\shared\amf\public\include\core\Debug.h
+cargo:rerun-if-changed=cpp\shared\amf\public\include\core\Dump.h
+cargo:rerun-if-changed=cpp\shared\amf\public\include\core\Factory.h
+cargo:rerun-if-changed=cpp\shared\amf\public\include\core\Interface.h
+cargo:rerun-if-changed=cpp\shared\amf\public\include\core\Plane.h
+cargo:rerun-if-changed=cpp\shared\amf\public\include\core\Platform.h
+cargo:rerun-if-changed=cpp\shared\amf\public\include\core\PropertyStorage.h
+cargo:rerun-if-changed=cpp\shared\amf\public\include\core\PropertyStorageEx.h
+cargo:rerun-if-changed=cpp\shared\amf\public\include\core\Result.h
+cargo:rerun-if-changed=cpp\shared\amf\public\include\core\Surface.h
+cargo:rerun-if-changed=cpp\shared\amf\public\include\core\Trace.h
+cargo:rerun-if-changed=cpp\shared\amf\public\include\core\Variant.h
+cargo:rerun-if-changed=cpp\shared\amf\public\include\core\Version.h
+cargo:rerun-if-changed=cpp\shared\amf\public\include\core\VulkanAMF.h
+cargo:rerun-if-changed=cpp\shared\threadtools.cpp
+cargo:rerun-if-changed=cpp\shared\threadtools.h
+cargo:rerun-if-changed=cpp/platform/win32
+cargo:rerun-if-changed=cpp/platform/win32\CEncoder.cpp
+cargo:rerun-if-changed=cpp/platform/win32\CEncoder.h
+cargo:rerun-if-changed=cpp/platform/win32\ColorCorrectionPixelShader.cso
+cargo:rerun-if-changed=cpp/platform/win32\CompressAxisAlignedPixelShader.cso
+cargo:rerun-if-changed=cpp/platform/win32\d3d-render-utils
+cargo:rerun-if-changed=cpp/platform/win32\d3d-render-utils\QuadVertexShader.hlsl
+cargo:rerun-if-changed=cpp/platform/win32\d3d-render-utils\RenderPipeline.cpp
+cargo:rerun-if-changed=cpp/platform/win32\d3d-render-utils\RenderPipeline.h
+cargo:rerun-if-changed=cpp/platform/win32\d3d-render-utils\RenderUtils.cpp
+cargo:rerun-if-changed=cpp/platform/win32\d3d-render-utils\RenderUtils.h
+cargo:rerun-if-changed=cpp/platform/win32\FFR.cpp
+cargo:rerun-if-changed=cpp/platform/win32\FFR.h
+cargo:rerun-if-changed=cpp/platform/win32\FrameRender.cpp
+cargo:rerun-if-changed=cpp/platform/win32\FrameRender.h
+cargo:rerun-if-changed=cpp/platform/win32\FrameRenderPS.cso
+cargo:rerun-if-changed=cpp/platform/win32\FrameRenderVS.cso
+cargo:rerun-if-changed=cpp/platform/win32\NvCodecUtils.h
+cargo:rerun-if-changed=cpp/platform/win32\NvEncoder.cpp
+cargo:rerun-if-changed=cpp/platform/win32\NvEncoder.h
+cargo:rerun-if-changed=cpp/platform/win32\NvEncoderD3D11.cpp
+cargo:rerun-if-changed=cpp/platform/win32\NvEncoderD3D11.h
+cargo:rerun-if-changed=cpp/platform/win32\OvrDirectModeComponent.cpp
+cargo:rerun-if-changed=cpp/platform/win32\OvrDirectModeComponent.h
+cargo:rerun-if-changed=cpp/platform/win32\QuadVertexShader.cso
+cargo:rerun-if-changed=cpp/platform/win32\shared
+cargo:rerun-if-changed=cpp/platform/win32\shared\d3drender.cpp
+cargo:rerun-if-changed=cpp/platform/win32\shared\d3drender.h
+cargo:rerun-if-changed=cpp/platform/win32\stb_image_write.h
+cargo:rerun-if-changed=cpp/platform/win32\VideoEncoder.cpp
+cargo:rerun-if-changed=cpp/platform/win32\VideoEncoder.h
+cargo:rerun-if-changed=cpp/platform/win32\VideoEncoderAMF.cpp
+cargo:rerun-if-changed=cpp/platform/win32\VideoEncoderAMF.h
+cargo:rerun-if-changed=cpp/platform/win32\VideoEncoderNVENC.cpp
+cargo:rerun-if-changed=cpp/platform/win32\VideoEncoderNVENC.h
+cargo:rerun-if-changed=cpp/platform/win32\VideoEncoderSW.cpp
+cargo:rerun-if-changed=cpp/platform/win32\VideoEncoderSW.h

@@ -1,0 +1,9 @@
+cargo:rustc-env=executables_dir=
+cargo:rustc-env=libraries_dir=
+cargo:rustc-env=static_resources_dir=
+cargo:rustc-env=config_dir=
+cargo:rustc-env=log_dir=
+cargo:rustc-env=openvr_driver_root_dir=
+cargo:rustc-env=vrcompositor_wrapper_dir=
+cargo:rustc-env=vulkan_layer_manifest_dir=
+cargo:rustc-env=root=
