@@ -1,7 +1,8 @@
 # FovOptix
-[FovOptix: Human Vision-Compatible Video Encoding and Adaptive Streaming in VR Cloud Gaming](https://dl.acm.org/doi/abs/10.1145/3625468.3647612)
-
-FovOptix is developed based on [ALVR code base](https://github.com/alvr-org/ALVR). <br>
+[FovOptix: Human Vision-Compatible Video Encoding and Adaptive Streaming in VR Cloud Gaming](https://dl.acm.org/doi/abs/10.1145/3625468.3647612)  <br> 
+Publised in the Proceedings of the 15th ACM Multimedia Systems Conference (MMSys '24)  <br>
+FovOptix is built upon the [codebase of ALVR](https://github.com/alvr-org/ALVR). <br>
+We are grateful to the ALVR team for their work, and we acknowledge and give them credit for their contributions.<br>
 ALVR streams VR games from your PC to your VR headset via Wi-Fi. <br>
 Please read more details about the supported VR Headsets, PC OS, requirements, and tools required on [ALVR](https://github.com/alvr-org/ALVR).
 
