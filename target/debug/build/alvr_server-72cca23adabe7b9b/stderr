@@ -1,1 +1,0 @@
-clang diag: cpp/alvr_server/bindings.h:1:9: warning: #pragma once in main file [-Wpragma-once-outside-header]

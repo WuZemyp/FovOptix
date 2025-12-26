@@ -57,7 +57,19 @@ void VideoEncoderSW::Initialize() {
 	av_dict_set(&opt, "preset", "ultrafast", 0);
 	av_dict_set(&opt, "tune", "zerolatency", 0);
 
-	m_codecContext->profile = FF_PROFILE_H264_HIGH;
+	if (codecId == AV_CODEC_ID_H264) {
+		#if defined(FF_PROFILE_H264_HIGH)
+				m_codecContext->profile = FF_PROFILE_H264_HIGH;
+		#elif defined(AV_PROFILE_H264_HIGH)
+				m_codecContext->profile = AV_PROFILE_H264_HIGH;
+		#elif defined(FF_PROFILE_H264_MAIN)
+				m_codecContext->profile = FF_PROFILE_H264_MAIN;
+		#elif defined(AV_PROFILE_H264_MAIN)
+				m_codecContext->profile = AV_PROFILE_H264_MAIN;
+		#else
+				m_codecContext->profile = FF_PROFILE_UNKNOWN;
+		#endif
+			}
 	switch (settings.m_entropyCoding) {
 		case ALVR_CABAC:
 			av_dict_set(&opt, "coder", "ac", 0);

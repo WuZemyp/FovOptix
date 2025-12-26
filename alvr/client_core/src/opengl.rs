@@ -10,6 +10,34 @@ use glyph_brush_layout::{
 #[cfg(target_os = "android")]
 include!(concat!(env!("OUT_DIR"), "/bindings.rs"));
 
+// bindgen (0.65.x) is currently not emitting items declared with `extern "C"` in
+// `client_core/cpp/bindings.h` for the Android build. Declare the missing FFI
+// symbols explicitly so the Rust code can compile and link against the native C++ code.
+#[cfg(target_os = "android")]
+#[allow(dead_code, non_upper_case_globals, non_snake_case)]
+extern "C" {
+    // Lobby glTF resources (set by Rust, read by C++)
+    static mut LOBBY_ROOM_GLTF_PTR: *const u8;
+    static mut LOBBY_ROOM_GLTF_LEN: u32;
+    static mut LOBBY_ROOM_BIN_PTR: *const u8;
+    static mut LOBBY_ROOM_BIN_LEN: u32;
+
+    // Native rendering entry points (implemented in C++)
+    fn initGraphicsNative();
+    fn destroyGraphicsNative();
+    fn prepareLobbyRoom(
+        viewWidth: i32,
+        viewHeight: i32,
+        swapchainTextures: *mut *const u32,
+        swapchainLength: i32,
+    );
+    fn destroyRenderers();
+    fn streamStartNative(config: FfiStreamConfig);
+    fn updateLobbyHudTexture(data: *const u8);
+    fn renderLobbyNative(eyeInputs: *const FfiViewInput);
+    fn renderStreamNative(streamHardwareBuffer: *mut std::ffi::c_void, swapchainIndices: *const u32);
+}
+
 const HUD_TEXTURE_WIDTH: usize = 1280;
 const HUD_TEXTURE_HEIGHT: usize = 720;
 const FONT_SIZE: f32 = 50_f32;

@@ -19,6 +19,11 @@ fn get_ffmpeg_path() -> PathBuf {
 fn main() {
     let out_dir = PathBuf::from(env::var("OUT_DIR").unwrap());
     let cpp_dir = PathBuf::from(env::var("CARGO_MANIFEST_DIR").unwrap()).join("cpp");
+    let bindings_header = cpp_dir.join("alvr_server").join("bindings.h");
+
+    // Make sure Cargo reliably reruns this build script when the bindgen input changes.
+    // (This is critical because stale generated bindings can cause missing-symbol build errors.)
+    println!("cargo:rerun-if-changed={}", bindings_header.to_string_lossy());
 
     #[cfg(windows)]
     let platform = "cpp/platform/win32";
@@ -130,7 +135,8 @@ fn main() {
 
     bindgen::builder()
         .clang_arg("-xc++")
-        .header("cpp/alvr_server/bindings.h")
+        .header(bindings_header.to_string_lossy())
+        .parse_callbacks(Box::new(bindgen::CargoCallbacks))
         .derive_default(true)
         .generate()
         .unwrap()

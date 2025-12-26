@@ -59,21 +59,49 @@ pub fn prepare_ffmpeg_windows() {
     let sh = Shell::new().unwrap();
 
     let download_path = afs::deps_dir().join("windows");
+    let final_path = download_path.join("ffmpeg");
+
+    // Prefer the unversioned "master-latest" artifact to avoid having to bump this
+    // every time BtbN updates the numbered "nX.Y" builds.
+    const ARCHIVE_NAME: &str = "ffmpeg-master-latest-win64-gpl-shared.zip";
+    const ARCHIVE_DIR_NAME: &str = "ffmpeg-master-latest-win64-gpl-shared";
+
     command::download_and_extract_zip(
         &sh,
         &format!(
             "https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/{}",
-            "ffmpeg-n5.1-latest-win64-gpl-shared-5.1.zip"
+            ARCHIVE_NAME
         ),
         &download_path,
     )
     .unwrap();
 
-    fs::rename(
-        download_path.join("ffmpeg-n5.1-latest-win64-gpl-shared-5.1"),
-        download_path.join("ffmpeg"),
-    )
-    .unwrap();
+    if final_path.exists() {
+        fs::remove_dir_all(&final_path).unwrap();
+    }
+
+    let extracted_dir = download_path.join(ARCHIVE_DIR_NAME);
+    if extracted_dir.exists() {
+        fs::rename(extracted_dir, &final_path).unwrap();
+        return;
+    }
+
+    // Fallback: if the archive directory name changes, pick the extracted folder that looks like
+    // the win64 GPL shared build.
+    let mut candidates = fs::read_dir(&download_path)
+        .unwrap()
+        .filter_map(|e| e.ok())
+        .filter(|e| e.file_type().ok().map(|t| t.is_dir()).unwrap_or(false))
+        .filter_map(|e| e.file_name().into_string().ok())
+        .filter(|name| name.starts_with("ffmpeg-") && name.contains("win64-gpl-shared"))
+        .collect::<Vec<_>>();
+    candidates.sort();
+
+    let picked = candidates
+        .last()
+        .unwrap_or_else(|| panic!("Failed to locate extracted FFmpeg directory in {download_path:?}"));
+
+    fs::rename(download_path.join(picked), &final_path).unwrap();
 }
 
 pub fn prepare_windows_deps(skip_admin_priv: bool) {

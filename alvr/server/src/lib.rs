@@ -22,6 +22,90 @@ mod bindings {
 }
 use bindings::*;
 
+// bindgen (0.65.x) is currently not emitting items declared with `extern "C"` in
+// `cpp/alvr_server/bindings.h` on Windows/MSVC (it only emits the non-`extern "C"`
+// symbols like `ParseFrameNals`). Declare the missing FFI symbols explicitly so
+// the Rust code can compile and link against the C++ library.
+#[allow(dead_code, non_upper_case_globals, non_snake_case)]
+extern "C" {
+    // Shader blobs (win32 .cso) and compute shaders (.spv)
+    static mut FRAME_RENDER_VS_CSO_PTR: *const u8;
+    static mut FRAME_RENDER_VS_CSO_LEN: u32;
+    static mut FRAME_RENDER_PS_CSO_PTR: *const u8;
+    static mut FRAME_RENDER_PS_CSO_LEN: u32;
+    static mut QUAD_SHADER_CSO_PTR: *const u8;
+    static mut QUAD_SHADER_CSO_LEN: u32;
+    static mut COMPRESS_AXIS_ALIGNED_CSO_PTR: *const u8;
+    static mut COMPRESS_AXIS_ALIGNED_CSO_LEN: u32;
+    static mut COLOR_CORRECTION_CSO_PTR: *const u8;
+    static mut COLOR_CORRECTION_CSO_LEN: u32;
+
+    static mut QUAD_SHADER_COMP_SPV_PTR: *const u8;
+    static mut QUAD_SHADER_COMP_SPV_LEN: u32;
+    static mut COLOR_SHADER_COMP_SPV_PTR: *const u8;
+    static mut COLOR_SHADER_COMP_SPV_LEN: u32;
+    static mut FFR_SHADER_COMP_SPV_PTR: *const u8;
+    static mut FFR_SHADER_COMP_SPV_LEN: u32;
+    static mut RGBTOYUV420_SHADER_COMP_SPV_PTR: *const u8;
+    static mut RGBTOYUV420_SHADER_COMP_SPV_LEN: u32;
+
+    // Paths populated by the Rust side
+    static mut g_sessionPath: *const std::os::raw::c_char;
+    static mut g_driverRootDir: *const std::os::raw::c_char;
+
+    // Callbacks set by the Rust side and invoked by C++.
+    static mut LogError: Option<unsafe extern "C" fn(stringPtr: *const std::os::raw::c_char)>;
+    static mut LogWarn: Option<unsafe extern "C" fn(stringPtr: *const std::os::raw::c_char)>;
+    static mut LogInfo: Option<unsafe extern "C" fn(stringPtr: *const std::os::raw::c_char)>;
+    static mut LogDebug: Option<unsafe extern "C" fn(stringPtr: *const std::os::raw::c_char)>;
+    static mut LogPeriodically: Option<
+        unsafe extern "C" fn(tag: *const std::os::raw::c_char, stringPtr: *const std::os::raw::c_char),
+    >;
+    static mut DriverReadyIdle: Option<unsafe extern "C" fn(setDefaultChaprone: bool)>;
+    static mut InitializeDecoder: Option<unsafe extern "C" fn(configBuffer: *const u8, len: i32, codec: i32)>;
+    static mut VideoSend: Option<unsafe extern "C" fn(targetTimestampNs: u64, buf: *mut u8, len: i32, isIdr: bool)>;
+    static mut HapticsSend: Option<unsafe extern "C" fn(path: u64, duration_s: f32, frequency: f32, amplitude: f32)>;
+    static mut ShutdownRuntime: Option<unsafe extern "C" fn()>;
+    static mut PathStringToHash: Option<unsafe extern "C" fn(path: *const std::os::raw::c_char) -> u64>;
+    static mut ReportPresent: Option<unsafe extern "C" fn(timestamp_ns: u64, offset_ns: u64)>;
+    static mut ReportComposed: Option<unsafe extern "C" fn(timestamp_ns: u64, offset_ns: u64)>;
+    static mut ReportEncoded: Option<unsafe extern "C" fn(timestamp_ns: u64)>;
+    static mut ReportSave: Option<unsafe extern "C" fn(timestamp_ns: u64)>;
+    static mut GetDynamicEncoderParams: Option<unsafe extern "C" fn() -> FfiDynamicEncoderParams>;
+    static mut GetSerialNumber: Option<unsafe extern "C" fn(deviceID: u64, outString: *mut std::os::raw::c_char) -> u64>;
+    static mut SetOpenvrProps: Option<unsafe extern "C" fn(deviceID: u64)>;
+    static mut WaitForVSync: Option<unsafe extern "C" fn()>;
+
+    // Entry points implemented in C++.
+    fn CppEntryPoint(
+        pInterfaceName: *const std::os::raw::c_char,
+        pReturnCode: *mut i32,
+    ) -> *mut std::os::raw::c_void;
+    fn InitializeStreaming();
+    fn DeinitializeStreaming();
+    fn SendVSync();
+    fn RequestIDR();
+    fn SetTracking(
+        targetTimestampNs: u64,
+        controllerPoseTimeOffsetS: f32,
+        deviceMotions: *const FfiDeviceMotion,
+        motionsCount: i32,
+        leftHand: *const FfiHandSkeleton,
+        rightHand: *const FfiHandSkeleton,
+        controllersTracked: u32,
+    );
+    fn VideoErrorReportReceive();
+    fn ShutdownSteamvr();
+
+    fn SetOpenvrProperty(deviceID: u64, prop: FfiOpenvrProperty);
+    fn SetChaperone(areaWidth: f32, areaHeight: f32);
+    fn SetViewsConfig(config: FfiViewsConfig);
+    fn SetBattery(deviceID: u64, gauge_value: f32, is_plugged: bool);
+    fn SetButton(path: u64, value: FfiButtonValue);
+
+    fn CaptureFrame();
+}
+
 use alvr_common::{
     glam::Quat,
     log,
